@@ -14,8 +14,8 @@ body {
 /*div-pai do nav */
 .max-width {
 	max-width: 1300px;
-	padding: 0 10px;
 	margin: auto;
+	padding: 0 20px;
 }
 
 /* nav */
@@ -44,6 +44,7 @@ body {
 .navbar .menu li {
 	list-style: none;
 	display: inline-block; /*coloca em uma unica linha*/
+
 }
 
 .navbar .menu li a {
@@ -74,12 +75,13 @@ body {
 		content: "\f00d";
 	}
 	.navbar .menu {
-		background-color: #121721;
 		position: fixed;
+		background-color: #121721;
 		height: 100vh; /* para ocupar 100% da tela quando minimizar*/
 		width: 100%;
-		left: -100%;
-		top: 0;
+		left: -100%; /* esconde todo menu da direita para esquerda*/
+		/* top: 0; */
+		top: 10%;
 		text-align: center;
 		padding-top: 80px;
 		transition: all 1.3s ease;
@@ -111,10 +113,10 @@ body {
 	}
 }
 
-@media(max-width:195px) {
+@media (max-width: 195px) {
 	.max-width {
 		display: grid;
-        flex-wrap: wrap; /*alinha item em colunas */
+		flex-wrap: wrap; /*alinha item em colunas */
 		align-items: center;
 		justify-content: center;
 	}
