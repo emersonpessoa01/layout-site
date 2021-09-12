@@ -162,30 +162,30 @@ section {
   height: 100vh;
   min-height: 500px;
   background-attachment: fixed; /*fixa a imagem de fundo */
-  background-size: cover;/*cobre os espaços vazios*/
+  background-size: cover; /*cobre os espaços vazios*/
   font-family: "Ubuntu", sans-serif;
 }
 
-.top .max-width{
+.top .max-width {
   width: 100%;
   display: flex;
 }
 
-.top .top-content .text-1{
-  font-size:25px;
+.top .top-content .text-1 {
+  font-size: 25px;
   margin-top: 100px;
 }
-.top .top-content .text-2{
-  font-size:55px;
+.top .top-content .text-2 {
+  font-size: 55px;
   font-weight: 400;
   margin-left: -3px;
 }
-.top .top-content .text-3{
-  font-size:32px;
+.top .top-content .text-3 {
+  font-size: 32px;
   margin: 5px 0;
 }
 /*tornando o link em um botão */
-.top .top-content a{
+.top .top-content a {
   display: inline-block;
   background-color: #b02ab7;
   color: #fff;
@@ -197,38 +197,75 @@ section {
   border: 2px solid #b02ab7;
   transition: all 0.3s ease;
 }
-.top .top-content a:hover{
+.top .top-content a:hover {
   color: #b02ab7;
-  background: none;  
+  background: none;
 }
 
-.services{
+.services {
   color: #fff;
   background-color: #0c0f16;
   font-family: "Poppins", sans-serif;
 }
 
-.services .title{
+.services .title {
   text-align: center;
   margin: 40px 0;
   font-size: 35px;
   font-weight: 400;
 }
 
-.services .serv-content{
+.services .serv-content {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-
 }
 
-.services .serv-content .card{
+.services .serv-content .card {
   width: calc(33% - 20px);
   background-color: #1b202a;
   text-align: center;
   border-radius: 6px;
   padding: 50px 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.services .serv-content .card:hover {
+  background: #b02ab7;
+}
+.services .serv-content .card i {
+  font-size: 50px;
+  color: #b02ab7;
+  transition: all 0.7s ease;
+}
+.services .serv-content .card {
+  transition: all 0.3s ease;
+}
+.services .serv-content .card:hover .box {
+  transform: scale(1.05);
+}
+
+.services .serv-content .card:hover i {
+  color: #fff;
+}
+
+.services .serv-content .card .text {
+  font-size: 25px;
+  margin: 10px 0 7px 0;
+}
+@media (max-width: 947px){
+  .services .serv-content .card{
+    width: calc(50% - 10px); /* 50% coloca dois em uma linha */
+    margin-bottom: 20px;
+  }
+}
+
+@media(max-width: 690px){
+  .services .serv-content .card{
+    width: 100%; /*ocupa uma linha por vez */
+  }
 }
 
 footer {
