@@ -106,7 +106,7 @@ body {
     .navbar .menu {
         position: fixed;
         background-color: #121721;
-        height: 100vh; /* para ocupar 100% da tela quando minimizar*/
+        height: 50vh; /* para ocupar 100% da tela quando minimizar*/
         width: 100%;
         left: -100%; /* esconde todo menu da direita para esquerda*/
         /* top: 0; */
