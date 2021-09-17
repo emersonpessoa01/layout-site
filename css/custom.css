@@ -7,9 +7,8 @@
     text-decoration: none;
 }
 
-html{
-  scroll-behavior: smooth;/*especifica o comportamento da rolagem página: smooth para rolar de forma suave */
-
+html {
+    scroll-behavior: smooth; /*especifica o comportamento da rolagem página: smooth para rolar de forma suave */
 }
 /* Menu fixo no rodapé*/
 /* html,
@@ -98,6 +97,10 @@ body {
         display: block;
         z-index: 999;
     }
+    .menu-btn {
+        display: block;
+        z-index: 999;
+    }
 
     /*trocando de icone bars p/ f00d */
     .menu-btn i.active:before {
@@ -105,12 +108,13 @@ body {
     }
     .navbar .menu {
         position: fixed;
-        background-color: #121721;
+        background-color: rgb(18, 23, 33);
+        background: rgba(62, 161, 117, 0.3);
         height: 50vh; /* para ocupar 100% da tela quando minimizar*/
         width: 100%;
         left: -100%; /* esconde todo menu da direita para esquerda*/
         /* top: 0; */
-        top: 10%;
+        top: 14%;
         text-align: center;
         padding-top: 80px;
         transition: all 1.3s ease;
@@ -275,10 +279,9 @@ section {
         width: 100%; /*ocupa uma linha por vez */
     }
     .contact .contact-content .info .sub-title {
-      word-break: break-all;
-      font-size: 15px;
-
-  }
+        word-break: break-all;
+        font-size: 15px;
+    }
 }
 
 .contact {
@@ -344,81 +347,80 @@ section {
 
 .contact .right form .field,
 .contact .right form .fields .field {
-	height: 45px;
-	width: 100%;
-	margin-bottom: 15px;
+    height: 45px;
+    width: 100%;
+    margin-bottom: 15px;
 }
 .contact .right form .textarea {
-	height: 80px;
-	width: 100%;
+    height: 80px;
+    width: 100%;
 }
 .contact .right form .name {
-	margin-right: 10px;
+    margin-right: 10px;
 }
 .contact .right form .field input,
 .contact .right form .textarea textarea {
-	height: 100%;
-	width: 100%;
-	border-radius: 6px;
-	outline: none;
-	padding: 0 15px;
-	font-family: "Poppins", sans-serif;
-	transition: all 0.3s ease;
+    height: 100%;
+    width: 100%;
+    border-radius: 6px;
+    outline: none;
+    padding: 0 15px;
+    font-family: "Poppins", sans-serif;
+    transition: all 0.3s ease;
 }
 .contact .right form .field input:focus,
 .contact .right form .textarea textarea:focus {
-	border-color: #b02ab7;
+    border-color: #b02ab7;
 }
 .contact .right form .textarea textarea {
-	padding-top: 10px;
-	resize: none;
+    padding-top: 10px;
+    resize: none;
 }
 .contact .right form .button-area {
-	display: flex;
-	align-items: center;
+    display: flex;
+    align-items: center;
 }
 .right form .button-area button {
-	color: #fff;
-	display: block;
-	width: 160px !important;
-	height: 45px;
-	outline: none;
-	font-size: 18px;
-	font-weight: 400;
-	border-radius: 6px;
-	cursor: pointer;
-	flex-wrap: wrap;
-	background-color: #b02ab7;
-	border: 2px solid #b02ab7;
-	transition: all 0.3s ease;
+    color: #fff;
+    display: block;
+    width: 160px !important;
+    height: 45px;
+    outline: none;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 6px;
+    cursor: pointer;
+    flex-wrap: wrap;
+    background-color: #b02ab7;
+    border: 2px solid #b02ab7;
+    transition: all 0.3s ease;
 }
 .right form .button-area button:hover {
-	color: #b02ab7;
-	background: none;
+    color: #b02ab7;
+    background: none;
 }
-@media(max-width:947px){
-  .contact .contact-content .column{
-    width: 100%; /*para cada coluna ocupe 100% */
-    margin-bottom: 35px;
-  }
+@media (max-width: 947px) {
+    .contact .contact-content .column {
+        width: 100%; /*para cada coluna ocupe 100% */
+        margin-bottom: 35px;
+    }
 }
-@media(max-width:500px){
-  .contact .title{
-    margin-top: 10px;
-  }
-  .contact .right form .fields{
-    flex-direction: column;
-  }
-  .contact .right form .name,
-  .contact .right form .email{
-    margin: 0;
-  }
-  .contact .contact-content .info .sub-title {
-    /* word-break: break-all; */
-    font-size: 15px;
+@media (max-width: 500px) {
+    .contact .title {
+        margin-top: 10px;
+    }
+    .contact .right form .fields {
+        flex-direction: column;
+    }
+    .contact .right form .name,
+    .contact .right form .email {
+        margin: 0;
+    }
+    .contact .contact-content .info .sub-title {
+        /* word-break: break-all; */
+        font-size: 15px;
+    }
 }
-}
-
 
 footer {
     background-color: #121721;
