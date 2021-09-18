@@ -83,6 +83,10 @@ body {
     margin-left: 25px;
 }
 
+.navbar .menu .active-link{
+    color:#26c5dc
+}
+
 .menu-btn {
     color: #fff;
     font-size: 23px;
@@ -109,12 +113,13 @@ body {
     .navbar .menu {
         position: fixed;
         background-color: rgb(18, 23, 33);
-        background: rgba(62, 161, 117, 0.3);
-        height: 50vh; /* para ocupar 100% da tela quando minimizar*/
+        background: rgba(62, 161, 117, 0.5);
+        height: 62.5vh; /* para ocupar 100% da tela quando minimizar*/
         width: 100%;
         left: -100%; /* esconde todo menu da direita para esquerda*/
         /* top: 0; */
-        top: 14%;
+        top: 13%;
+        border-bottom-right-radius: 25%;
         text-align: center;
         padding-top: 80px;
         transition: all 1.3s ease;
@@ -141,6 +146,9 @@ body {
         display: inline-block;
         margin: 13px 0;
         font-size: 25px;
+        color: #b02ab7;
+        font-weight: 400;
+
     }
     .max-width {
         max-width: 930px;
