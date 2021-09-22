@@ -83,8 +83,8 @@ body {
     margin-left: 25px;
 }
 
-.navbar .menu .active-link{
-    color:#26c5dc
+.navbar .menu .active-link {
+    color: #26c5dc;
 }
 
 .menu-btn {
@@ -124,6 +124,7 @@ body {
         text-align: center;
         padding-top: 80px;
         transition: all 1.3s ease;
+        box-shadow: 2px 2px 5px #d9d9d9, -2px -2px 5px #ffff;
     }
     .navbar .menu.active {
         left: 0;
@@ -149,7 +150,6 @@ body {
         font-size: 25px;
         color: #b02ab7;
         font-weight: 400;
-
     }
     .max-width {
         max-width: 930px;
