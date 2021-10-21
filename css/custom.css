@@ -38,7 +38,8 @@ body {
     z-index: 999;
     padding: 20px 0;
     font-family: "Ubuntu", sans-serif;
-    background-color: #121721;
+    /* background-color: #121721; */
+    /* background-color: #0d1117; */
     /* background-color: none; para menu transparente*/
     /* border-bottom: 1px solid #1b202a; */
     box-shadow: 2px 2px 5px #d9d9d9, -2px -2px 5px #ffff;
@@ -259,7 +260,7 @@ section {
 .services .serv-content .card i {
     font-size: 50px;
     color: #b02ab7;
-    transition: all 0.7s ease;
+    transition: all 0.9s ease;
 }
 .services .serv-content .card {
     transition: all 0.3s ease;
