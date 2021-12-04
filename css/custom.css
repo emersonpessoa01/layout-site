@@ -117,9 +117,9 @@ body {
         /* background: rgba(62, 161, 117, 0.5); */
         height: 62.5vh; /* para ocupar 100% da tela quando minimizar*/
         width: 100%;
-        /* left: -100%; esconde todo menu da direita para esquerda */
-        top: -100%;
-        /* top: 15%; */
+        left: -100%; /*esconde todo menu da direita para esquerda*/
+        /* top: -100%; */
+        top: 15%;
         border-bottom-right-radius: 6%;
         border-top-right-radius: 6%;
         text-align: center;
@@ -129,8 +129,8 @@ body {
         box-shadow: 2px 2px 5px #d9d9d9;
     }
     .navbar .menu.active {
-        /* left: 0; */
-        top: 15%;
+        left: 0;
+        /* top: 15%; */
     }
     .navbar .menu li {
         display: block;
