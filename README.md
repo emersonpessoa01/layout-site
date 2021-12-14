@@ -6,6 +6,6 @@
 
 <hr> 
      <p align="center">
-     <img src="./images/layout-site.png" width="100%" alt="layout-site">
+     <img src="./images/layout-site.png" width="95%" alt="layout-site">
      </p>
 <hr>
